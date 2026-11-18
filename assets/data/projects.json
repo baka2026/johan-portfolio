@@ -1,0 +1,44 @@
+[
+  {
+    "title": "GUI Builder",
+    "description": "A concept for a visual interface builder for browser userscripts.",
+    "tags": ["JavaScript", "Browser Automation", "Developer Tools"],
+    "image": "/assets/images/project-placeholder.svg",
+    "link": "#"
+  },
+  {
+    "title": "Browser Automation",
+    "description": "Experiments with JavaScript and Tampermonkey for browser automation.",
+    "tags": ["JavaScript", "Tampermonkey", "Automation"],
+    "image": "/assets/images/browser-automation.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Cybersecurity Lab",
+    "description": "Learning projects and security-related research.",
+    "tags": ["Cybersecurity", "Linux", "Kali Linux"],
+    "image": "/assets/images/cybersecurity-lab.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Web Development",
+    "description": "Previous website concepts and experiments.",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "image": "/assets/images/web-development.jpg",
+    "link": "#"
+  },
+  {
+    "title": "AI & Automation",
+    "description": "Experiments involving AI APIs and model integrations.",
+    "tags": ["AI", "Automation", "APIs"],
+    "image": "/assets/images/ai-automation.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Creative Coding",
+    "description": "Interactive visual experiments with JavaScript and Three.js.",
+    "tags": ["JavaScript", "Three.js", "Creative Coding"],
+    "image": "/assets/images/creative-coding.jpg",
+    "link": "#"
+  }
+]
