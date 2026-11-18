@@ -1,141 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johan Arpin – Independent Developer & Technology Enthusiast</title>
-    <meta name="description" content="Portfolio of Johan Arpin, an independent developer, cybersecurity enthusiast and AI experimenter based in Auckland, New Zealand.">
-    <meta property="og:title" content="Johan Arpin – Independent Developer & Technology Enthusiast" />
-    <meta property="og:description" content="Explore the work, skills and passions of Johan Arpin – a curious technologist building digital experiences." />
-    <meta property="og:url" content="https://johanarpin.xyz/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://johanarpin.xyz/assets/images/og-image.jpg" />
-    <link rel="canonical" href="https://johanarpin.xyz/" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Johan Arpin — Developer &amp; technology enthusiast, Auckland</title>
+<meta name="description" content="Johan Arpin is a developer and technology enthusiast in Auckland, New Zealand, building web projects, browser tools, AI experiments and learning cybersecurity.">
+<link rel="canonical" href="https://johanarpin.xyz/">
+<meta name="theme-color" content="#efece5">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Johan Arpin">
+<meta property="og:title" content="Johan Arpin — Developer &amp; technology enthusiast">
+<meta property="og:description" content="Web projects, browser tools, AI experiments and cybersecurity learning from Auckland, New Zealand.">
+<meta property="og:url" content="https://johanarpin.xyz/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Johan Arpin","url":"https://johanarpin.xyz","sameAs":["https://github.com/baka2026"],"jobTitle":"Developer","address":{"@type":"PostalAddress","addressLocality":"Auckland","addressCountry":"NZ"}}</script>
 </head>
 <body>
-    <header>
-        <nav role="navigation" aria-label="Main navigation">
-            <div class="logo">
-                <a href="#" aria-label="Home">JA</a>
-            </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#experiments">Experiments</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#cybersecurity">Cybersecurity</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="mobile-menu">
-                <button id="mobile-menu-button" aria-label="Toggle menu">☰</button>
-            </div>
-        </nav>
-    </header>
+<a class="skip" href="#main">Skip to content</a>
+<div id="bar"></div><header id="nav-mount"><noscript><a href="https://github.com/baka2026">GitHub</a></noscript></header>
+<main id="main">
+<div class="hero" id="home">
+  <div>
+    <p class="mono">Developer / Technology enthusiast — Auckland, NZ</p>
+    <h1 style="margin-top:24px">Johan<br><em>Arpin</em></h1>
+    <p class="intro">I build things for the digital world: web projects, browser tools and AI experiments, with a growing obsession for how software breaks and how to secure it.</p>
+    <div class="row"><a class="btn" href="#work">Selected work ↓</a><a class="lnk" href="#contact">Get in touch</a></div>
+  </div>
+  <svg class="mark" id="mark" viewBox="0 0 400 460" role="img" aria-label="Line-drawn J monogram on a technical grid">
+    <defs><pattern id="gp" width="40" height="40" patternUnits="userSpaceOnUse"><path class="g" d="M40 0H0V40" fill="none"/></pattern></defs>
+    <rect width="400" height="440" fill="url(#gp)"/>
+    <circle class="ln" cx="200" cy="230" r="150"/><line class="ln" x1="40" y1="230" x2="360" y2="230" stroke-dasharray="2 5"/>
+    <path class="ln draw" d="M250 70V250a60 60 0 0 1-60 60h-20a60 60 0 0 1-60-60"/>
+    <path class="ln draw ac" d="M120 70H330" style="stroke-width:3;animation-delay:.6s"/>
+    <g id="cx" style="display:none"><line class="ln ac" x1="0" x2="400" y1="0" y2="0" id="ch"/><line class="ln ac" y1="0" y2="440" x1="0" x2="0" id="cv"/></g>
+    <text x="8" y="452" id="ro">X 0.50  Y 0.50</text><text x="392" y="452" text-anchor="end">FIG. 01 — J</text>
+  </svg>
+</div>
 
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-                <h1 class="hero-heading">Building things for the digital world</h1>
-                <p class="hero-subheading">INDEPENDENT DEVELOPER / TECHNOLOGY ENTHUSIAST</p>
-                <div class="hero-buttons">
-                    <a href="#work" class="button">Explore my work</a>
-                    <a href="#contact" class="button secondary">Contact me</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>Johan Arpin is an independent developer and technology enthusiast based in Auckland, New Zealand. With a passion for building digital projects, Johan enjoys experimenting with programming, web development, cybersecurity, and artificial intelligence.</p>
-                <p>Currently exploring: Web development, cybersecurity, and AI-powered applications.</p>
-            </div>
-        </section>
-
-        <section id="work" class="work">
-            <h2>Projects</h2>
-            <div class="projects-grid" id="projects-container">
-                <!-- Projects will be loaded here -->
-            </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <h2>Skills</h2>
-            <div class="skills-content">
-                <div class="skill-group">
-                    <h3>Web Development</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="skill-group">
-                    <h3>Cybersecurity</h3>
-                    <ul>
-                        <li>Linux</li>
-                        <li>Kali Linux</li>
-                        <li>Web Security</li>
-                    </ul>
-                </div>
-                <div class="skill-group">
-                    <h3>Artificial Intelligence</h3>
-                    <ul>
-                        <li>AI APIs</li>
-                        <li>Model Integrations</li>
-                        <li>Automation</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="cybersecurity" class="cybersecurity">
-            <h2>Cybersecurity</h2>
-            <div class="cybersecurity-content">
-                <p>Johan's interest in cybersecurity includes ethical hacking, defensive security, and understanding vulnerabilities. This section will feature technical write-ups, learning projects, and security-related research.</p>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Contact</h2>
-            <div class="contact-content">
-                <p>You can find Johan on:</p>
-                <ul>
-                    <li><a href="https://github.com/baka2026" target="_blank">GitHub</a></li>
-                    <li><a href="https://johanarpin.xyz" target="_blank">Website</a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Johan Arpin. All rights reserved.</p>
-    </footer>
-
-    <div class="jarvis-button" id="jarvis-button">
-        <img src="/assets/icons/jarvis-icon.svg" alt="J.A.R.V.I.S. Assistant">
+<section id="about"><div class="wrap">
+  <div class="head"><h2>About</h2><span class="mono">01 / Introduction</span></div>
+  <div class="about">
+    <p class="lead rv">I like taking things apart to see how they work, then <em>building something new</em> from what I learn.</p>
+    <dl class="rv">
+      <div><dt>Based in</dt><dd>Auckland, New Zealand</dd></div>
+      <div><dt>Languages</dt><dd>JavaScript, Python</dd></div>
+      <div><dt>Environment</dt><dd>Linux, Kali Linux</dd></div>
+      <div><dt>Currently exploring</dt><dd>Cybersecurity, AI APIs, Three.js</dd></div>
+    </dl>
+    <div class="body rv">
+      <p>Technology hooked me through curiosity rather than a curriculum. I learn by experimenting: writing a script, breaking it, working out why, and trying again. JavaScript and Python are where I do most of that, from Tampermonkey userscripts that reshape websites to small tools that talk to APIs.</p>
+      <p>Cybersecurity is the interest I keep coming back to. Understanding how systems fail makes me a better builder, and I’m learning it the hands-on way on Linux, ethically and on systems I’m allowed to test.</p>
+      <p>I’m also fascinated by AI, both as a tool to build with and as something worth understanding properly. This site’s assistant, J.A.R.V.I.S., is one of those experiments.</p>
     </div>
+  </div>
+</div></section>
 
-    <div class="jarvis-chat" id="jarvis-chat">
-        <div class="chat-header">
-            <h3>J.A.R.V.I.S. Assistant</h3>
-            <button id="close-chat">×</button>
-        </div>
-        <div class="chat-messages" id="chat-messages">
-            <!-- Chat messages will appear here -->
-        </div>
-        <div class="chat-input">
-            <input type="text" id="chat-input-field" placeholder="Ask J.A.R.V.I.S. anything...">
-            <button id="send-button">Send</button>
-        </div>
-    </div>
+<section id="work"><div class="wrap">
+  <div class="head"><h2>Selected<br>work</h2><span class="mono">02 / Projects &amp; prototypes</span></div>
+  <div id="featured"></div>
+</div></section>
 
-    <script src="script.js"></script>
+<section id="experiments"><div class="wrap">
+  <div class="head"><h2>Experiments</h2><span class="mono">03 / Ongoing explorations</span></div>
+  <div class="idx" id="index"></div>
+</div></section>
+
+<section id="cybersecurity" class="dark"><div class="wrap">
+  <div class="head"><h2>Cyber<em>security</em></h2><span class="mono">04 / Learning in public</span></div>
+  <div class="cy">
+    <div class="rv"><p style="font:400 clamp(24px,3vw,40px)/1.2 var(--serif)">Security is the lens I look at everything through: how it’s built, how it can fail, how to defend it.</p>
+      <ul><li><span>Web security</span><span class="mono">Learning</span></li><li><span>Linux &amp; Kali</span><span class="mono">Daily driver</span></li><li><span>Defensive tooling</span><span class="mono">Planned</span></li><li><span>Technical write-ups</span><span class="mono" id="wu">None yet</span></li></ul>
+      <p class="mono" style="margin-top:24px"><a class="lnk" style="color:var(--dkt);border-color:var(--dkt)" href="/project?p=security-lab">Read the lab overview →</a></p></div>
+    <div class="term rv" aria-label="Illustrative terminal"><div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="m"># illustrative, not a live shell</span>
+<span class="p">$</span> cat focus.txt
+web security fundamentals
+linux internals
+defensive tooling
+<span class="p">$</span> echo "authorised targets only"
+authorised targets only
+<span class="p">$</span> <span class="caret"></span></pre></div>
+  </div>
+</div></section>
+
+<section id="technologies"><div class="wrap">
+  <div class="head"><h2>Tech</h2><span class="mono">05 / Explored, not ranked</span></div>
+  <div class="tech" id="tech"></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <p class="mono">06 / Contact</p>
+  <h2 style="margin-top:24px">Let’s build<br><em>something.</em></h2>
+  <ul id="links"></ul>
+</div></section>
+</main>
+<footer class="mono"><span>© Johan Arpin — Auckland, NZ</span><span>johanarpin.xyz</span></footer>
+<script src="/site.config.js"></script>
+<script src="/main.js" defer></script>
 </body>
 </html>
